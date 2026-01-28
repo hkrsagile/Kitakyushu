@@ -6,8 +6,49 @@
     <title>2026北九州五日四夜精選遊</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap');
-        :root { --brand-blue: #1a2a6c; --brand-gold: #b21f1f; --brand-yellow: #fdbb2d; --text-gray: #555; }
-        body { font-family: 'Noto Sans TC', sans-serif; background-color: #fcfcfc; color: #333; margin: 0; padding: 0; }
+
+:root { 
+  --brand-blue: #1a2a6c; 
+  --brand-gold: #b21f1f; 
+  --brand-yellow: #fdbb2d; 
+  --text-gray: #555; 
+  --card-shadow: 0 8px 30px rgba(0,0,0,0.08);
+}
+
+/* Ensure smooth rendering on mobile */
+html { scroll-behavior: smooth; }
+
+body { 
+  font-family: 'Noto Sans TC', sans-serif; 
+  background-color: #fcfcfc; 
+  color: #333; 
+  margin: 0; 
+  padding: 0; 
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.6;
+}
+
+/* Enhancement: Add a subtle hover effect to your cards */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid #f0f0f0;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--card-shadow);
+  border-color: var(--brand-yellow);
+}
+
+/* Fix for Google Sites: Ensures content doesn't feel cramped */
+.day-section {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px 15px;
+}
         
         /* 頁首與天氣 */
         .hero { background: linear-gradient(to right, #1a2a6c, #d4cdba); color: white; padding: 40px 20px; text-align: center; }
@@ -371,3 +412,4 @@
 
 </body>
 </html>
+
