@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>2026 北九洲精選遊</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap');
+        :root { --brand-blue: #1a2a6c; --brand-gold: #b21f1f; --brand-yellow: #fdbb2d; --text-gray: #555; }
+        body { font-family: 'Noto Sans TC', sans-serif; background-color: #fcfcfc; color: #333; margin: 0; padding: 0; }
+        
+        /* 頁首與天氣 */
+        .hero { background: linear-gradient(to right, #1a2a6c, #d4cdba); color: white; padding: 40px 20px; text-align: center; }
+        .hero h1 { margin: 0; font-size: 1.8rem; letter-spacing: 1px; }
+        .weather-panel { background: rgba(0,0,0,0.2); margin: 20px auto 0; padding: 15px; border-radius: 12px; max-width: 500px; font-size: 0.9rem; border: 1px solid rgba(255,255,255,0.3); }
+
+        /* 每日路線 */
+        .day-section { padding: 10px; }
+        .day-header { background: var(--brand-blue); color: white; padding: 12px 20px; border-radius: 8px; margin: 20px 10px 10px; font-weight: bold; font-size: 1.1rem; }
+        .route-path { padding: 0 15px 15px; font-size: 0.85rem; color: var(--brand-gold); font-weight: bold; border-bottom: 2px dashed #eee; margin-bottom: 20px; }
+
+        /* 景點卡片 */
+        .card { background: white; margin-bottom: 25px; border-radius: 15px; overflow: hidden; box-shadow: 0 8px 20px rgba(0,0,0,0.08); border: 1px solid #f0f0f0; }
+        .card-img { width: 100%; height: 220px; object-fit: cover; background: #eee; }
+        .card-body { padding: 20px; }
+        .card-title { font-size: 1.2rem; font-weight: bold; color: var(--brand-blue); margin-bottom: 12px; display: flex; align-items: flex-start; }
+        .card-info { font-size: 0.88rem; color: var(--text-gray); margin-bottom: 8px; display: flex; }
+        .label { font-weight: 700; min-width: 75px; color: #888; }
+        .value { flex: 1; }
+        
+        /* 標籤樣式 */
+        .tag { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: bold; margin-right: 5px; }
+        .tag-fee { background: #fff5f5; color: #e53e3e; border: 1px solid #feb2b2; }
+        .tag-time { background: #f0fff4; color: #38a169; border: 1px solid #9ae6b4; }
+
+        /* 行動按鈕 */
+        .btn-action { display: block; text-align: center; background: #f1f3f5; color: var(--brand-blue); padding: 12px; text-decoration: none; font-size: 0.9rem; font-weight: bold; border-radius: 8px; margin-top: 15px; transition: 0.3s; border: 1px solid #dee2e6; }
+        .btn-action:active { background: #e9ecef; }
+    </style>
+</head>
+<body>
+
+<div class="hero">
+    <h1>2026 九州精選深度遊</h1>
+    <div class="weather-panel">
+        ☀️ <b>2月預測氣溫：4°C - 11°C</b><br>
+        穿著建議：洋蔥式穿法，室內外溫差大，建議厚外套配輕便發熱衣。
+    </div>
+</div>
+
+<!-- Day 1 -->
+<div class="day-section">
+    <div class="day-header">Day 1 - 02/14 (六) 福岡 | 空港抵達 </div>
+    <div class="route-path">📍 機場入境 ➔ Aeon Mall</div>
+
+    <div class="card" style="border: 2px solid var(--brand-gold);">
+        <div class="card-body" style="background: #fffafa;">
+            <div class="card-title">香港國際機場 (去程)</div>
+            <div class="card-info"><span class="label">時間：</span><span class="value"><B>香港T1起飛: 11:00 | 抵達福岡T1: 15:10</B></span></div>
+	 <div class="card-info"><span class="label">航班資料：</span><span class="value"><B>UO668</B></span></div>
+<div class="card-info"><span class="label">備註：</span><span class="value">建議提前 2.5 小時抵達機場辦理登機。</span></div>
+            <a href="https://www.hongkongairport.com/tc/flights/arrivals/passenger.page" class="btn-action" style="background: var(--brand-gold); color: white;">查看航班資訊</a>
+        </div>
+    </div>
+</div>
+
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSskSogsRryGYwvceIbXSRsukVitZ30GLZkjQ&s" class="card-img" alt="Aeon Mall">
+        <div class="card-body">
+           <div class="card-title">Aeon Mall Fukuoka</div>
+            <div class="card-info"><span class="label">時間：</span><span class="value">10:00 - 21:00</span></div>
+	 <div class="card-info"><span class="label">特色：</span><span class="value">機場揸車12分鐘; 有豬豬cafe, abc mart, asbee, workman, megasport, 3coins, Uniqlo, etc…</span></div>
+            <a href="http://fukuoka-aeonmall.com" class="btn-action">前往官網</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQzMTc1MTI1NTc5ODExMjU1OQ==/original/b56f7c79-fcb4-4a0b-8d8d-2c5d9c29d638.jpeg?im_w=720" class="card-img" alt="Airbnb">
+        <div class="card-body">
+            <div class="card-title">[住宿] AirBnb </div>
+            <a href="https://www.airbnb.com/rooms/1431751255798112559" class="btn-action">查看訂房資訊</a>
+        </div>
+    </div>
+</div>
+
+<!-- Day 2 -->
+<div class="day-section">
+    <div class="day-header">Day 2 - 02/15 (日) 別府 | 湯布院與別府溫泉</div>
+    <div class="route-path">📍 湯布院花卉村 ➔ 別府地獄 (明礬溫泉, 湯之花) ➔ 葫芦温泉 ➔ YouMe Town (備用) </div>
+    <div class="card">
+        <img src="https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/or1zxme8kbtlh7fy4gxg/Kyushu-Yufuin.jpg" class="card-img">
+        <div class="card-body">
+            <div class="card-title">湯布院花卉村</div>
+             <div class="card-info"><span class="label">時間：</span><span class="value">09:30 - 17:30</span></div>
+	<div class="card-info"><span class="label">特色：</span><span class="value">英式迷你主題樂園; 會見到可愛的貓頭鷹、寶可夢商店、姆明商店、小雜貨店、貓咪咖啡館(孟加拉貓)</span></div>
+            <a href="http://floral-village.com" class="btn-action">前往官網</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-RD1lluNSazSfbeBZBTnwxfsI5NvWqwHHWw&s" class="card-img">
+        <div class="card-body">
+            <div class="card-title">別府地獄之旅</div>
+            <div class="card-info"><span class="label">門票：</span><span class="value"><span class="tag tag-fee">2,200円 (套票)</span></span></div>
+            <div class="card-info"><span class="label">時間：</span><span class="value">08:00 - 17:00</span></div>
+	<div class="card-info"><span class="label">特色：</span><span class="value">別府地獄之旅是位於九州大分縣的經典名勝，以七大獨特且無法入浴的「自然地獄」（高溫溫泉）為特色。這趟行程特色包括觀賞如海一般藍的「海地獄」、紅色的「血池地獄」、爆裂的間歇泉「龍卷地獄」等，並能體驗著名的「地獄蒸」料理。</span></div>
+            <a href="https://oita-tourism.com/zh-TW/onsenStories/jigokumeguri" class="btn-action">更多資訊</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp91LcS0f-4HzNzWRNeg4aTQrB-hbPADUD7Q&s" class="card-img">
+        <div class="card-body">
+            <div class="card-title">明礬温泉</div>
+            <div class="card-info"><span class="label">門票：</span><span class="value"><span class="tag tag-fee">200円 (套票)</span></span></div>
+            <div class="card-info"><span class="label">時間：</span><span class="value">08:30 - 17:30</span></div>
+	    <div class="card-info"><span class="label">特色：</span><span class="value">據說對皮膚病和神經痛有一定的療效</span></div>
+            <a href="http://jigoku-prin.com" class="btn-action">溫泉指南</a>
+        </div>
+    </div>
+
+<div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTByMA2ZrPKufW9VYVHAfT3zZM83FstvFFZ4w&s" class="card-img">
+        <div class="card-body">
+            <div class="card-title">湯の花 製造直売所</div>
+            <div class="card-info"><span class="label">特色：</span><span class="value">無形文化遺產、紀念品</span></div>
+            <a href="http://yuno-hana.jp/baiten/index.html" class="btn-action">前往官網</a>
+        </div>
+    </div>
+
+ <div class="card">
+        <img src="https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_862/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/inntjvixty0zjdbfcvbc/%E4%B9%9D%E5%B7%9E%E6%B8%A9%E6%B3%89%EF%BD%9C%E3%80%90%E7%B1%B3%E5%85%B6%E6%9E%97%E4%B8%89%E6%98%9F%E3%80%91%E8%91%AB%E8%8A%A6%E6%B8%A9%E6%B3%89%E6%B1%A4%E5%B8%83%E9%99%A2%E5%B0%8F%E9%95%87%E5%A4%AA%E5%AE%B0%E5%BA%9C%E5%A4%A9%E6%BB%A1%E5%AE%AB%E6%B5%B7%E5%9C%B0%E7%8B%B1%EF%BD%9C%E7%A6%8F%E5%86%88%E5%87%BA%E5%8F%91%EF%BD%9C%E4%B8%AD%E8%8B%B1%E6%96%87%E5%AF%BC%E6%B8%B8.jpg" class="card-img">
+        <div class="card-body">
+            <div class="card-title">葫蘆溫泉</div>
+  	    <div class="card-info"><span class="label">門票：</span><span class="value"><span class="tag tag-fee">1,160円 (13歲以上) / 280円 (4-6歲)</span></span></div>
+            <div class="card-info"><span class="label">時間：</span><span class="value">09:00AM - 01:00AM</span></div>
+            <div class="card-info"><span class="label">特色：</span><span class="value">據說是米其林三星温泉; 沙浴、能喝温泉水</span></div>
+            <a href="https://www.hyotan-onsen.com" class="btn-action">溫泉指南</a>
+        </div>
+    </div>
+
+<div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4_mJ1B2g3pbvFc_ukDkEYvXCiic88vJDieQ&s" class="card-img">
+        <div class="card-body">
+            <div class="card-title">YouMe Town Beppu (備用)</div>
+ 	    <div class="card-info"><span class="label">時間：</span><span class="value">9:30-21:00</span></div>
+            <div class="card-info"><span class="label">特色：</span><span class="value"> 商場樓高3層，進駐包括 ABC Mart、GU、UNIQLO、DAISO 等眾多知名連鎖品牌，並設有大型超市及美食街。</span></div>
+            <a href="https://www.izumi.jp/tenpo/beppu" class="btn-action">前往官網</a>
+        </div>
+    </div>
+
+<div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb26alzIFuHoItf9XW5H8eJEQ_MFCx5Gpe6w&s" class="card-img">
+        <div class="card-body">
+            <div class="card-title">[住宿] 鬼山飯店</div>
+            <div class="card-info"><span class="label">特色：</span><span class="value"> 溫泉 | 鬼山之湯、庫貝裡之湯</span></div>
+            <a href="https://www.oniyama-hotel.co.jp/" class="btn-action">前往官網</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- Day 3 -->
+<div class="day-section">
+    <div class="day-header">Day 3 - 02/16 (一) 熊本 | 親親大自然及歷史文化之旅 </div>
+    <div class="route-path">📍Aso Milk Factory ➔ Aso Cuddly Dominion ➔ 熊本城 ➔ 櫻之馬場 城彩苑 </div>
+
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTofsquHjrIvkbqQeOLrVWBsk_cM-jx0YtJcQ&s" class="card-img">
+        <div class="card-body">
+            <div class="card-title">Aso Milk Factory</div>
+            <div class="card-info"><span class="label">時間：</span><span class="value">09:30-18:00</span></div>
+	     <div class="card-info"><span class="label">特色：</span><span class="value"> 牛奶工廠、起司工廠、甜點工坊、咖啡店、餐廳、玫瑰園</span></div>
+            <a href="https://asomilkfactory.com/" class="btn-action">前往官網</a>
+        </div>
+    </div>
+
+<div class="card">
+        <img src="https://static.gltjp.com/glt/data/directory/15000/14868/20250206_132402_c5fb4e5d_w640.webp" class="card-img">
+        <div class="card-body">
+            <div class="card-title">Aso Cuddly Dominion</div>
+            <div class="card-info"><span class="label">門票：</span><span class="value"><span class="tag tag-fee">2,600円 (成人);  800-1,400円 (3歲+)</span></span></div>
+             <div class="card-info"><span class="label">時間：</span><span class="value">10:00-16:30 | 動物表演時間：13:00/15:00（演出時間：約30-40分鐘）</span></div>
+  <div class="card-info"><span class="label">特色：</span><span class="value"> 與動物互動、動物表演</span></div>
+            <a href="https://www.cuddly.co.jp/" class="btn-action">前往官網</a>
+        </div>
+    </div>
+
+  <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxlnXrbz7-aVaThkwpXoKVfhOqn9z9UvBSpQ&s" class="card-img">
+        <div class="card-body">
+            <div class="card-title">熊本城</div>
+ <div class="card-info"><span class="label">門票：</span><span class="value"><span class="tag tag-fee">800-1,000円</span></span></div>
+            <div class="card-info"><span class="label">時間：</span><span class="value">09:00-17:00 (最後入場: 16:00)</span></div>
+	     <div class="card-info"><span class="label">特色：</span><span class="value"> 熊本城是日本三大名城之一。 又名銀杏城,由名將加藤清正於慶長6年(1601年)動工,經過7年的建造完成。 城堡面積約98萬平方米,周長約9公里(建成時),擁有天守3處、櫓49處、櫓門18處和城門29處,非常的雄偉壯觀。利用自然地形及曲線石牆等獨特的技術建成。
+在明治10年的西南戰役中,薩摩軍隊圍城50多天不能攻破,發揮了難攻不破的價值。在開戰前被大火燒毀了天守·本丸御殿一帶。現在的天守閣是昭和35年由熊本市重建的。</span></div>
+            <a href="https://kumamoto-guide.jp/" class="btn-action">前往官網</a>
+        </div>
+    </div>
+
+<div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVeJNYVRr6MLpvc3nbdNJn2Xmf4hBkg_4XCQ&s" class="card-img">
+        <div class="card-body">
+            <div class="card-title">櫻之馬場 城彩苑</div>
+            <div class="card-info"><span class="label">時間：</span><span class="value">櫻花小路 9:00-18:00 | 美食大廳：11:00-22:00（最後用餐時間: 21:00）</span></div>
+	     <div class="card-info"><span class="label">特色：</span><span class="value"> 熊本城腳下的觀光村，有土產、甜點、輕食與歷史體驗館，是品嚐熊本名物與買手信的好地方。</span></div>
+            <a href="https://www.sakuranobaba-johsaien.jp/" class="btn-action">前往官網</a>
+        </div>
+    </div>
+
+<div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTzQiu6dN8Z3-uPpXWYChwAE3YGhwMLnrDrw&s" class="card-img">
+        <div class="card-body">
+            <div class="card-title">[住宿] FAV HOTEL KUMAMOTO</div>
+            <div class="card-info"><span class="label">時間：</span><span class="value">Check-in: 15:00 / Check out: 10:00</span></div>
+ <div class="card-info"><span class="label">停車場費：</span><span class="value"> ：1,500日圓（含稅/僅限1晚住宿）| 共4個車位
+</span></div>
+	<a href="https://fav-hotels.com/hotels/kumamoto/" class="btn-action">前往官網</a>
+        </div>
+    </div>
+</div>
+
+<!-- Day 4 -->
+<div class="day-section">
+    <div class="day-header">Day 4 - 02/17 (二) 熊本糸島小長佂</div>
+    <div class="route-path">📍 山見茶屋(午餐) ➔ 吉次園農場 ➔ 格林主題樂園 (備用) ➔ 白濱家 (糸島海鮮) ➔ 夫婦岩</div>
+
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScpXPsWZ-Y1lhPJs1JjMVzsPed91SY8fgMzQ&s" class="card-img">
+        <div class="card-body">
+            <div class="card-title">山見茶屋 (午餐) </div>
+            <div class="card-info"><span class="label">時間：</span><span class="value">11:00 - 19:00</span></div>
+	    <div class="card-info"><span class="label">特色：</span><span class="value"> 城彩苑附近的鄉土料理店，有赤牛丼、馬刺、團子汁等，午餐價格合理，位置好</span></div>
+            <a href="http://yamami-cyaya.com/" class="btn-action">前往官網</a>
+        </div>
+    </div>
+
+<div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8caVFT_NLSXWeG5CbER-hwQquRTQ6zVgacA&s" class="card-img">
+        <div class="card-body">
+            <div class="card-title">吉次園農場</div>
+            <div class="card-info"><span class="label">門票：</span><span class="value"><span class="tag tag-fee">290 円 (100g) | 40分鐘放題: 1,700-2,300 円</span></span></div>
+ 	    <div class="card-info"><span class="label">時間：</span><span class="value">10:30 - 16:00</span></div>
+	    <div class="card-info"><span class="label">特色：</span><span class="value"> 體驗採摘各種水果的觀光農場; 2月份為草莓季</span></div>
+            <a href="https://www.kichijien.jp/" class="btn-action">前往官網</a>
+        </div>
+    </div>
+
+   <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT89w9CSCFX3orb3oxnvqQBrR-niDlkVM5SyQ&s" class="card-img">
+        <div class="card-body">
+            <div class="card-title">格林主題樂園 (備用)</div>
+            <div class="card-info"><span class="label">門票：</span><span class="value"><span class="tag tag-fee"> 入場費: 1,000 円(4歲+/65歲+) 2,000 円 (成人) <BR>+ [OPTIONAL] 免費通行證: 4,000 円 (4歲+/成人) 2,800 円(65歲+)</BR></span></span></div>
+ 	    <div class="card-info"><span class="label">時間：</span><span class="value">10:30 - 16:00</span></div>
+	    <div class="card-info"><span class="label">特色：</span><span class="value"> 熊本縣最大級的遊樂園,占地面積約 50 公頃，結合陸上、水上遊樂園、高爾夫球場及周邊飯店；有直徑高達105公尺，全日本最大的摩天輪、還有日本最長的滑行鐵道「恐龍雲霄飛車」、九州第一個垂吊式雲霄飛車「Grampus Jet」等，備有超過80種的遊樂設施。</span></div>
+            <a href="https://www.greenland.co.jp/park/" class="btn-action">前往官網</a>
+        </div>
+    </div> 
+
+  <div class="card">
+        <img src="https://image.kkday.com/v2/image/get/c_fit%2Cq_55%2Ct_webp%2Cw_960/s1.kkday.com/product_215145/20241002121513_n8BFj/png" class="card-img">
+        <div class="card-body">
+            <div class="card-title">白濱家 (糸島海鮮)</div>
+            <div class="card-info"><span class="label">時間：</span><span class="value">11:00-21:00（最後用餐時間20:00）</span></div>
+	    <div class="card-info"><span class="label">特色：</span><span class="value"> 糸島牡蠣和海鮮</span></div>
+            <a href="https://www.hamayaki-shirahamaya.com/" class="btn-action">前往官網</a>
+        </div>
+    </div> 
+
+
+<div class="card">
+        <img src="https://www.crossroadfukuoka.jp/storage/tourism_attractions/12456/responsive_images/3aFSeQyQ7aa6des3AMQPCaDQE5QOMOWLPwKJX82V__1673_1115.jpg" class="card-img">
+        <div class="card-body">
+            <div class="card-title">櫻井二見浦 夫婦岩</div>
+            <a href="http://sakuraijinja.com" class="btn-action">查看景點資訊</a>
+        </div>
+    </div>
+
+<div class="card">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/36367827.jpg?k=25f64dc70583397faca1f33dc82c4b8da1f5b98c1389849e3650d17e65218c16&o=" class="card-img">
+        <div class="card-body">
+            <div class="card-title">[住宿-連住兩晚] 福岡蒙特利酒店</div>
+            <div class="card-info"><span class="label">特色：</span><span class="value"> 三樓設有免費桑拿的浴場，男士浴場配有乾蒸桑拿，女士浴場配有霧蒸桑拿 6:00-11:00（最晚入場時間10:30）/ 15:00-24:00（最晚入場時間23:30）
+</span></div>
+	    <div class="card-info"><span class="label">註：</span><span class="value"> 可容納 60 輛車的多層停車場, 過夜停車：每輛車 1,500 日圓</span></div>
+	<a href="https://www.hotelmonterey.co.jp/fukuoka/?utm_source=google&utm_medium=mybusiness&utm_campaign=website_monfuk" class="btn-action">前往官網</a>
+        </div>
+    </div>
+</div>
+
+<!-- Day 5 -->
+<div class="day-section">
+    <div class="day-header">Day 5 - 02/18 (三) 福岡市區購物</div>
+    <div class="route-path">📍天神 Standard Products ➔ LaLaport Fukuoka (商場, Moff Cafe) </div>
+
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROgGowv742pv07KOj_P6UY_XhxRaEAY5qHJg&s" class="card-img">
+        <div class="card-body">
+            <div class="card-title"> 天神 Standard Products</div>
+	  <div class="card-info"><span class="label">地址：</span><span class="value">福岡縣福岡市中央區天神2-1-1 - DAISO</span></div>
+            <div class="card-info"><span class="label">時間：</span><span class="value">10:00-20:00</span></div>
+            <a href="https://www.daiso-sangyo.co.jp/shop/detail/001797?utm_source=google&utm_medium=maps&utm_campaign=top"class="btn-action">前往官網</a>
+        </div>
+    </div>
+
+
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_9DS26wVVS-rp9_MjEMQm1aK4AR602AH92Q&s" class="card-img">
+        <div class="card-body">
+            <div class="card-title">LaLaport Fukuoka</div>
+            <div class="card-info"><span class="label">地址：</span><span class="value">6-chōme-23-1 Naka, Hakata</span></div>
+            <div class="card-info"><span class="label">亮點：</span><span class="value">實物1:1 GUNDAM </span></div>
+            <a href="http://mitsui-shopping-park.com" class="btn-action">前往官網</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9cG3ujVOT5d8QHXgZeoUz88V0yCOHtDeMnA&s" class="card-img">
+        <div class="card-body">
+            <div class="card-title">Moff animal cafe LaLaport Fukuoka</div>
+           <div class="card-info"><span class="label">門票：</span><span class="value"><span class="tag tag-fee"> 入場:950 (4歲+) / 1,450 (成人) + 飲料: 380日元（必需）</span></span></div>
+	   <div class="card-info"><span class="label">地址：</span><span class="value">LaLaport 4F</span></div>
+ 	   <div class="card-info"><span class="label">時間：</span><span class="value">10:00 - 20:00（最後入場時間：19:30） </span></div>
+            <div class="card-info"><span class="label">亮點：</span><span class="value">動物 CAFE </span></div>
+            <a href="https://moff-moff.jp/archives/shop/ani-cafe_fukuoka-lala?utm_source=google&utm_medium=maps&utm_campaign=gbp" class="btn-action">前往官網</a>
+        </div>
+    </div>
+
+ <div class="card-body">
+            <div class="card-title">[住宿] 福岡蒙特利酒店</div>
+            <div class="card-info"><span class="label">特色：</span><span class="value"> 三樓設有免費桑拿的浴場，男士浴場配有乾蒸桑拿，女士浴場配有霧蒸桑拿 6:00-11:00（最晚入場時間10:30）/ 15:00-24:00（最晚入場時間23:30）
+</span></div>
+	    <div class="card-info"><span class="label">註：</span><span class="value"> 可容納 60 輛車的多層停車場, 過夜停車：每輛車 1,500 日圓</span></div>
+	<a href="https://www.hotelmonterey.co.jp/fukuoka/?utm_source=google&utm_medium=mybusiness&utm_campaign=website_monfuk" class="btn-action">前往官網</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- Day 6 -->
+<div class="day-section">
+    <div class="day-header">Day 6 - 02/19 (四) 最後掃貨衝刺</div>
+    <div class="route-path">📍 友都八喜 ➔ 機場 </div>
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGAHcIRQ2MVMy9seodzJpTgyhBsri0wIKTJQ&s" class="card-img">
+        <div class="card-body">
+            <div class="card-title">Yodobashi 博多</div>
+           <div class="card-info"><span class="label">時間：</span><span class="value">09:30-22:00</span></div>
+ 	<div class="card-info"><span class="label">亮點：</span><span class="value">B1 玩具區</span></div>
+            <a href="http://www.yodobashi.com" class="btn-action">前往官網</a>
+        </div>
+    </div>
+
+       <img src="https://www.bring-you.info/imgs/2025/02/fukuoka-international-terminal-shops-6.jpg" class="card-img">
+        <div class="card-body">
+            <div class="card-title">福岡機場最後補貨</div>
+            <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV59JOEuqeYkqyOHuWfgNQUALfFt4el98Zog&s" class="btn-action">更多資訊</a>
+        </div>
+    </div>
+
+<div class="card" style="border: 2px solid var(--brand-gold);">
+        <div class="card-body" style="background: #fffafa;">
+            <div class="card-title">福岡國際機場 (回程)</div>
+            <div class="card-info"><span class="label">時間：</span><span class="value"><B>福岡T1起飛: 16:05 | 抵達香港T1: 19:05</B></span></div>
+	 <div class="card-info"><span class="label">航班資料：</span><span class="value"><B>UO669</B></span></div>
+<div class="card-info"><span class="label">備註：</span><span class="value">建議提前 2.5 小時抵達機場辦理登機。</span></div>
+            <a href="https://www.fukuoka-airport.jp/tw/" class="btn-action" style="background: var(--brand-gold); color: white;">查看機場資訊</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
